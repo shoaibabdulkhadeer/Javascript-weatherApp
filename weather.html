@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="shortcut icon" href="./images/weatherImg.png">
+    <title>Document</title>
+</head>
+<body>
+         <section class="home">
+                 <div class="navbar">
+                       <div class="logo">
+                          <img src="./images/weatherImg.png" alt="logo">
+                       </div>
+
+                       <div class="links">
+                            <a href="">Home</a> 
+                            <a href="">About</a> 
+                            <a href="">Contact-us</a> 
+                            <a href="">Sign In</a>         
+                        </div>
+
+                 </div>
+
+                 <div class="search">
+                          <div class="searchcity">
+                           <input type="text" placeholder="Enter a city name" id="city">
+                           <button onclick="search()">Search</button>
+                          </div>
+                            
+                          <div class="searchlocation">
+
+                            <img src="./images/map.png" width="45" alt="">
+                           
+                            <p id="CityName">City Name</p>
+                          </div>
+
+                 </div>
+
+
+                 <div class="weatherInfo">
+                         <h1 >Temp <span id="temp"> 0 </span> <sup>o</sup> <sup>c</sup></h1>
+
+                 </div>
+         </section>
+
+
+    <script src="weather.js"></script>
+</body>
+</html>
